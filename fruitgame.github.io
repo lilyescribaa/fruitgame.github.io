@@ -376,10 +376,7 @@ ellipse(371, 268, 100, 90);
         beaver.checkForStickGrab(sticks[i]);
         sticks[i].x +=  3; //speed
     }
-    frameRate(11);
     
-    var score = 0;
-    var nextScore = 1;//score board
 
     var time = round((millis()- startTime)/1000);
     textSize(18);

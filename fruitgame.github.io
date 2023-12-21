@@ -166,8 +166,8 @@ var btn1 = new Button({
     y: 222,
     label: "   Start Button",
     onClick: function() {
-        startTime=millis();
         currentScene = 1;
+        startTime=millis();
     }
 });
 
